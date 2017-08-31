@@ -1,0 +1,88 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+
+  .header__top{
+    min-height: 60px;
+    line-height: 60px;
+    background-color: $bg-color;
+  }
+  .bottom-line:after{
+    display: none;
+  }
+  .logo__picture{
+    padding-top: 15px;
+  }
+  .menu-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: $btn-color;
+  }
+
+  #top_menu{
+    background-color: $bg-color;
+  }
+
+  .menu__items{
+    padding-right: 0;
+    display: block;
+    text-align: center;
+
+  }
+  .menu__link{
+    display: block;
+    &:hover{
+      color: $accent-color;
+    }
+  }
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+}
+
+

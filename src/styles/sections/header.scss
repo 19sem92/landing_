@@ -1,0 +1,67 @@
+.header{
+  min-height: 100vh;
+  background-image: url(../../images/banner.jpg);
+  background-size:cover;
+}
+
+.header__top{
+  min-height: 98px;
+  line-height: 98px;
+}
+
+.bottom-line:after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: $accent-color;
+}
+
+.logo__picture {
+  padding: 30px 0;
+}
+
+.menu{
+
+  &__items{
+    display: inline-block;
+    padding-right: 60px;
+    &:last-child{
+      padding-right: 0;
+    }
+
+  }
+  &__link{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family:$ff-another;
+    font-size: 0.5625rem;
+
+    &:hover{
+      text-decoration: none;
+      color: $accent-color;
+    }
+    &:focus{
+      text-decoration: none;
+      color: $accent-color;
+    }
+  }
+
+}
+
+.title{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 150px;
+
+  &__header{
+    font-size: 3.125rem;
+    font-family:$ff-another;
+    margin-bottom: 35px;
+
+  }
+  &__text{
+    font-size: 1.125rem;
+    margin-bottom: 70px;
+  }
+}
+

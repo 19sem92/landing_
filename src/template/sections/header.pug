@@ -1,0 +1,22 @@
+header.header
+    .header__top
+        .container
+            .row.bottom-line
+                .navbar-header
+                    button.navbar-toggle.collapsed.menu-btn(data-toggle='collapse')(data-target='#top_menu')
+                    a.logo(href='#')
+                        img.logo__picture(src="images/logo.png" alt="logo")
+                .collapse.navbar-collapse.navbar-right(id="top_menu")
+                    ul.menu
+                        - var items = ['Features', 'Works', 'Our team', 'Testimonials','Download']
+                        each item in items
+                            li.menu__items: a.menu__link(href="#")= item
+    .container
+        .row
+            .header__bottom.col-md-8.col-md-offset-2
+                .title
+                    h1.title__header Your Favorite One Page Multi Purpose Template
+                    p.title__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, doloribus ipsam iste laudantium nobis omnis tenetur
+                    button.btn.btn-danger.my-btn.my-btn--md find out more
+
+

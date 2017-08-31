@@ -45,8 +45,8 @@ gulp.task('styles:compile', function () {
 
 gulp.task('js', function () {
     return gulp.src([
-        'src/js/form.js',
-        'src/js/navigation.js',
+        'node_modules/jquery/dist/jquery.js',
+        'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js',
         'src/js/main.js'
     ])
         .pipe(sourcemaps.init())
