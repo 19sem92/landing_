@@ -5,3 +5,5 @@
 * Запустить команду
 
 > npm install
+
+> npm start
