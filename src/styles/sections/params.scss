@@ -1,0 +1,23 @@
+.params{
+  padding: 99px 0 49px;
+}
+
+.params__block{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.params__icon{
+  font-size: 4.375rem;
+  color: $btn-color;
+}
+
+.params__header{
+  text-transform: uppercase;
+  font-family: RalewayBold, sans-serif;
+  font-size: 1.125rem;
+}
+
+.params__text{
+  font-size: .875rem;
+}

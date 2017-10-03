@@ -1,0 +1,23 @@
+.works__block{
+  position: relative;
+  &:hover .image__wrap{
+    opacity: 1;
+  }
+}
+
+.image__wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(222,69,69,.7);
+  display: flex;
+  opacity: 0;
+}
+
+.works__descr{
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}

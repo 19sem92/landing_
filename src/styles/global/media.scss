@@ -6,6 +6,15 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
+  .team__item{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .team__image{
+    margin: 0 auto;
+  }
+
 }
 
 /* Small Devices, Tablets */
@@ -33,6 +42,9 @@
     animation: none !important;
   }
 
+
+  //---------------header--------------------
+
   .header__top{
     min-height: 60px;
     line-height: 60px;
@@ -49,25 +61,40 @@
     width: 40px;
     border-radius: 50%;
     background-color: $btn-color;
-  }
-
-  #top_menu{
-    background-color: $bg-color;
-  }
-
-  .menu__items{
-    padding-right: 0;
-    display: block;
-    text-align: center;
-
-  }
-  .menu__link{
-    display: block;
-    &:hover{
-      color: $accent-color;
+    color: white;
+    &__icon{
+      position: absolute;
+      left: 12px;
+      top: 12px;
     }
   }
 
+  #top_menu{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    background-color: $bg-color;
+  }
+
+  .menu{
+    -webkit-padding-start: 0;
+
+    &__items {
+      padding-right: 0;
+      display: block;
+      text-align: center;
+    }
+    &__link {
+      display: block;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+
+
+  }
+
+ // ---------------header--------------------
 
 
 
@@ -76,12 +103,20 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+  // ---------------header--------------------
+  .title__header{
+    font-size: 1.875rem;
+  }
 
+  .title__text{
+    font-size: .875rem;
+  }
+
+  // ---------------header--------------------
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
 
 }
 

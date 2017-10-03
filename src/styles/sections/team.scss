@@ -1,0 +1,26 @@
+.team{
+  padding: 95px 0;
+
+  &__header{
+    font-family:$ff-another;
+    color: #000000;
+
+  }
+
+  &__specialty{
+    text-transform: uppercase;
+    color: #e84545;
+    font-size: .875rem;
+
+  }
+
+  &__text{
+    padding: 10px 0;
+    font-size: .875rem;
+
+  }
+
+  &__btns{
+  }
+
+}

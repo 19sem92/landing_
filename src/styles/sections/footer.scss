@@ -1,0 +1,20 @@
+.main-footer{
+  padding: 70px 0;
+  background-color: $main-footer-color;
+
+  &__item{
+    text-align: center;
+  }
+
+  &__header{
+    font-family: $ff-another;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+
+  &__text{
+    font-size: .875rem;
+    color: #9d9fb2;
+  }
+}

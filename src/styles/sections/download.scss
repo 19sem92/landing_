@@ -1,0 +1,19 @@
+.download{
+  padding: 90px 0;
+
+  &__block{
+    text-align: center;
+  }
+
+  &__header{
+    font-size: 1.4rem;
+  }
+
+  &__text{
+    font-family:$ff-another;
+    font-size: .875rem;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+  }
+}

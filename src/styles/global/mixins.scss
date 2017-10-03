@@ -16,3 +16,9 @@
   left: 50%;
   transform: translateY(-50%);
 }
+
+@mixin btn-color($border-c, $color){
+  border: 1px solid $border-c;
+  color: $color;
+}
+
